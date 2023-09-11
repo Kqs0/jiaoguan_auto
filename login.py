@@ -1,4 +1,7 @@
-
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @Time : 2023/9/8 22:39
+# @Author : kouqingshan
 
 import requests
 from conf import ADMIN_USERNAME, ADMIN_PASSWD, COOKIE_URL
