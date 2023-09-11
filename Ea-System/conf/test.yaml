@@ -1,0 +1,13 @@
+url:
+  cookie: "http://116.63.11.59:9000/api/mgr/loginReq"
+  get: "http://116.63.11.59:9000/api/mgr/sq_mgr/?action=list_course&pagenum=1&pagesize=20"
+  post: "http://116.63.11.59:9000/apijson/mgr/sq_mgr/"
+  put:  "http://116.63.11.59:9000/api/mgr/sq_mgr/"
+  delete: "http://116.63.11.59:9000/api/mgr/sq_mgr/"
+
+headers:
+  Content-Type: "application/x-www-form-urlencoded"
+
+admin:
+  username: "auto"
+  password: "sdfsdfsdf"

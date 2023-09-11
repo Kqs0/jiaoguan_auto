@@ -1,0 +1,7 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 116.63.11.59:9000
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://116.63.11.59:9000 "POST /api/mgr/loginReq HTTP/1.1" 200 14
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 116.63.11.59:9000
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://116.63.11.59:9000 "POST /api/mgr/loginReq HTTP/1.1" 200 14
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 116.63.11.59:9000
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://116.63.11.59:9000 "GET /api/mgr/sq_mgr/?action=list_course&pagenum=1&pagesize=20 HTTP/1.1" 200 273
+INFO     root:demo.py:44 {'retcode': 0, 'retlist': [{'id': 5827, 'name': '初中化学1', 'desc': '初中化学课程', 'display_idx': 4}, {'id': 5829, 'name': '初中化学3', 'desc': '初中化学课程', 'display_idx': 4}], 'total': 2}
