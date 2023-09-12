@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+# @Time : 2023/9/8 22:39
+# @Author : kouqingshan
+
 import os.path
 import yaml
 
@@ -23,3 +28,5 @@ PUT_URL = URL.get("put",None)
 DELETE_URL = URL.get("delete",None)
 ADMIN_USERNAME = ADMIN.get("username", None)
 ADMIN_PASSWD = ADMIN.get("password", None)
+HEADERS_JSON = {"Content-Type":"application/json"}
+HEADERS_DATA = {"Content-Type": "application/x-www-form-urlencoded"}
