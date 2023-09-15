@@ -11,3 +11,8 @@ headers:
 admin:
   username: "auto"
   password: "sdfsdfsdf"
+
+host_info:
+  host: "116.63.11.59"
+  username: "root"
+  password: "Huawei@123"
