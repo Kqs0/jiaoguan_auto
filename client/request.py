@@ -18,6 +18,7 @@ class HttpRequest(object):
         params = {"username": ADMIN_USERNAME, "password": ADMIN_PASSWD}
         resp = requests.post(url=COOKIE_URL, data=params)
         self.cookies = resp.cookies
+        logger.info(self.cookies)
 
     def list_course(self, **kwargs):
         resp = requests.get(url=GET_URL, headers=None, json=None, cookies=self.cookies)

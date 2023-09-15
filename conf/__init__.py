@@ -20,13 +20,20 @@ except Exception as e:
 
 # 定义用例所需的变量
 URL = CONF.get("url", {})
-ADMIN = CONF.get("admin", {})
 COOKIE_URL = URL.get("cookie", None)
 GET_URL = URL.get("get",None)
 POST_URL = URL.get("post",None)
 PUT_URL = URL.get("put",None)
 DELETE_URL = URL.get("delete",None)
+
+ADMIN = CONF.get("admin", {})
 ADMIN_USERNAME = ADMIN.get("username", None)
 ADMIN_PASSWD = ADMIN.get("password", None)
+
 HEADERS_JSON = {"Content-Type":"application/json"}
 HEADERS_DATA = {"Content-Type": "application/x-www-form-urlencoded"}
+
+HOST_INFO = CONF.get("host_info", {})
+HOST = HOST_INFO.get("host", None)
+HOST_USERNAME = HOST_INFO.get("username", None)
+HOST_PASSWORD = HOST_INFO.get("password", None)

@@ -3,7 +3,7 @@
 
 import paramiko
 import requests
-from common.login import cookie
+from common.tool import cookie
 
 ssh = paramiko.SSHClient()
 ssh.load_system_host_keys()
