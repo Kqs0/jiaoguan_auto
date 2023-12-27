@@ -1,9 +1,9 @@
 url:
-  cookie: "http://116.63.11.59:9000/api/mgr/loginReq"
-  get: "http://116.63.11.59:9000/api/mgr/sq_mgr/?action=list_course&pagenum=1&pagesize=20"
-  post: "http://116.63.11.59:9000/apijson/mgr/sq_mgr/"
-  put:  "http://116.63.11.59:9000/api/mgr/sq_mgr/"
-  delete: "http://116.63.11.59:9000/api/mgr/sq_mgr/"
+  cookie: "http://192.168.1.101:9000/api/mgr/loginReq"
+  get: "http://192.168.1.101:9000/api/mgr/sq_mgr/?action=list_course&pagenum=1&pagesize=20"
+  post: "http://192.168.1.101:9000/apijson/mgr/sq_mgr/"
+  put:  "http://192.168.1.101:9000/api/mgr/sq_mgr/"
+  delete: "http://192.168.1.101:9000/api/mgr/sq_mgr/"
 
 headers:
   Content-Type: "application/x-www-form-urlencoded"
@@ -13,6 +13,6 @@ admin:
   password: "sdfsdfsdf"
 
 host_info:
-  host: "116.63.11.59"
+  host: "192.168.1.101"
   username: "root"
-  password: "Huawei@123"
+  password: "123456"
