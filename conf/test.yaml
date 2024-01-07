@@ -1,9 +1,9 @@
 url:
-  cookie: "http://192.168.1.101:9000/api/mgr/loginReq"
-  get: "http://192.168.1.101:9000/api/mgr/sq_mgr/?action=list_course&pagenum=1&pagesize=20"
-  post: "http://192.168.1.101:9000/apijson/mgr/sq_mgr/"
-  put:  "http://192.168.1.101:9000/api/mgr/sq_mgr/"
-  delete: "http://192.168.1.101:9000/api/mgr/sq_mgr/"
+  cookie: "http://192.168.1.102:9000/api/mgr/loginReq"
+  get: "http://192.168.1.102:9000/api/mgr/sq_mgr/?action=list_course&pagenum=1&pagesize=20"
+  post: "http://192.168.1.102:9000/apijson/mgr/sq_mgr/"
+  put:  "http://192.168.1.102:9000/api/mgr/sq_mgr/"
+  delete: "http://192.168.1.102:9000/api/mgr/sq_mgr/"
 
 headers:
   Content-Type: "application/x-www-form-urlencoded"
@@ -13,6 +13,6 @@ admin:
   password: "sdfsdfsdf"
 
 host_info:
-  host: "192.168.1.101"
+  host: "192.168.1.102"
   username: "root"
   password: "123456"
